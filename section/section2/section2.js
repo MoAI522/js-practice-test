@@ -1,1 +1,1 @@
-console.log("OKできました");
+//consoleに何か出力してみましょう。

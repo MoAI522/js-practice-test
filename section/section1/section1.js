@@ -1,30 +1,21 @@
-q1 = "//";
+q1 = "ここに回答を入力";
 
-q2 = "var";
+q2 = "ここに回答を入力";
 
 q3 = `
 
-let country = "Japan";
-country = "America";
+ここに回答（コード）を入力
 
 `;
 
 q4 = `
 
-const japan = {
-  id: 1,
-  capital: "東京"
-};
-
-
-
-
-japan.lang = "日本語";
+ここに回答（コード）を入力
 
 `;
 
-q5 = [6, 2, 5];
+q5 = [];
 
-q6 = "キャメルケース";
+q6 = "ここに回答を入力";
 
 module.exports = { q1, q2, q3, q4, q5, q6 };

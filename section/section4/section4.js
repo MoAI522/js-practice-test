@@ -1,12 +1,5 @@
-const echoDiv = (x, y) => {
-  const reminder = x % y;
-  const quotient = (x - reminder) / y;
-  const message = "商: " + quotient + ", 余り: " + reminder;
-  return message;
-};
+const echoDiv = null;
 
-const reply = (message = "返信なし") => {
-  return message;
-};
+const reply = null;
 
 module.exports = { echoDiv, reply };

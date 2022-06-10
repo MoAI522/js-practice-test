@@ -1,20 +1,9 @@
-const character = {
-  id: 1,
-  name: "スライム",
-  hp: 50,
-};
+const character = null;
 
-const addMP = (value) => {
-  return { ...character, mp: value };
-};
+const addMP = null;
 
-const updateHP = () => {
-  const updatedCharacter = (character.hp -= 15);
-  return { ...character, hp: updatedCharacter };
-};
+const updateHP = null;
 
-const LookUpName = () => {
-  return character.name;
-};
+const LookUpName = null;
 
 module.exports = { character, addMP, updateHP, LookUpName };
